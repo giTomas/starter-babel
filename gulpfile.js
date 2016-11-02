@@ -6,7 +6,7 @@ var gulpPug      = require('gulp-pug');
 var sass         = require('gulp-sass');
 var babel        = require('gulp-babel');
 var print        = require('gulp-print');
-var cache        = require('gulp-cache');
+var cache        = require('gulp-cached');
 
 
 gulp.task('sass', function () {
